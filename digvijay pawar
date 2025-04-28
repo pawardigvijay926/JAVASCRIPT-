@@ -6,8 +6,20 @@
     <title>Simple Calculator</title>
 </head>
 <body id="parent">
+    <!-- <button onclick="light()"> Light Mode</button>
+    <button onclick="dark()"> Dark Mode</button> -->
+
+    <!-- //<h1 id="name">my name is :<span id="s"></span></h1>
+  //  <h1 id="time"></h1>
+  //<h1> virat kohli</h1>
+  // <img id =""> -->
+
+<!-- <h1> id= "h"</h1> -->
+
 <h1 id="h"></h1>
-<script>
+
+
+    <script>
 
 
 let num=+prompt("enter the seconds")
@@ -22,6 +34,95 @@ function show() {
 }
 }
 let interval=setInterval(show,1000)
- </script>
+
+
+
+
+
+    // function add(){
+    //     let d=new Date()
+    //     let sec=d.getSeconds
+    //     document.getElementById("h").innerHTML
+    //     if(sec===20){
+    //         clearInterval(interval)
+    //     }
+    // }
+    //   let interval=setInterval(add,1000)
+
+    
+        //let name=prompt("enter your name")
+        //document.getElementById("s").innerHTML=name
+   // let d=new Date()
+    //document.getElementById("name").innerHTML=d.toLocaleTimeString()
+   // document.getElementById("image").src="">
+
+    // function light(){
+    //     document.getElementById("h").style.colour="black"
+    //     documnet.getElementById("parent").style.backgroundColor="lightblue"
+    // }
+    // function dark()
+    // {
+    //     document.getElementById("h").textContent
+
+    // }
+    //setTimeout()
+
+
+
+   // document.getElementsByTagName("h1")[1].innerHTML="Good Afternoon"
+   // document.getElementsByTagName("p")[]
+
+
+//    ‹ script ›
+// let num=10
+// function show()
+// if (num>0)
+// document getElementById("h
+// num - -
+// innerHTML=num
+// felsel
+// clear Interval(interval)
+// document-getElementById ("h") • innerHTML="Time's Up|"
+// .. .
+// let interval=setInterval (show, 1000)
+// ‹/script>
+// </body> </html>
+    
+
+
+
+    // let ele=document.getElementById("time").style
+    // ele.color="red"
+    // ele.textShadow="0 0 10px black"
+
+
+
+        //document.getElementById("name").innerHTML="good evening"
+        // let num1 = +prompt("Enter 1st number");
+        // let num2 = +prompt("Enter 2nd number");
+        // let ope = prompt("Choose any operator (+, -, *, /)");
+
+        // switch (ope) {
+        //     case "+":
+        //         alert(num1 + num2);
+        //         break;
+        //     case "-":
+        //         alert(num1 - num2);
+        //         break;
+        //     case "*":
+        //         alert(num1 * num2);
+        //         break;
+        //     case "/":
+        //         if (num2 === 0) {
+        //             alert("Cannot divide by zero");
+        //         } else {
+        //             alert(num1 / num2);
+        //         }
+        //         break;
+        //     default:
+        //         alert("Invalid operator");
+        // }
+
+    </script>
 </body>
 </html>
